@@ -1,0 +1,31 @@
+{
+  "name": "XcelTutor",
+  "short_name": "XcelTutor",
+  "description": "Offline AI tutor powered by Gemma and LLaVA.",
+  "start_url": "/upload",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#0078ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/static/icons/xceltutor.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/xceltutor-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/xceltutor-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

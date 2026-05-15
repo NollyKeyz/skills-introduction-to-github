@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XcelTutor - Home</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/static/icons/xceltutor.svg">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="XcelTutor is your offline AI tutor, powered by Gemma and LLaVA. Get homework help instantly.">
+</head>
+<body>
+
+    <div class="app-container home-container">
+        <header class="hero">
+            <div class="logo-wrapper">
+                <div class="logo-icon">✨</div>
+            </div>
+            <h1 class="gradient-text">Welcome to XcelTutor</h1>
+            <p class="subtitle">Your intelligent offline AI tutor, powered by cutting-edge models.</p>
+            
+            <div class="button-group">
+                <a href="/upload" class="no-underline">
+                    <button class="primary-btn pulse-anim">
+                        Get Started
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </a>
+                <button id="installAppBtn" class="secondary-btn" style="display: none;">
+                    Install App
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="features-grid">
+            <div class="feature-card glass-effect">
+                <div class="feature-icon">🧠</div>
+                <h3>Smart Analysis</h3>
+                <p>Advanced AI understands your homework questions step-by-step.</p>
+            </div>
+            <div class="feature-card glass-effect">
+                <div class="feature-icon">⚡</div>
+                <h3>Offline & Fast</h3>
+                <p>Runs locally for maximum privacy and rapid responses.</p>
+            </div>
+            <div class="feature-card glass-effect">
+                <div class="feature-icon">📷</div>
+                <h3>Vision Enabled</h3>
+                <p>Upload images of your problems and let the AI do the reading.</p>
+            </div>
+        </div>
+    </div>
+
+<script src="/static/pwa.js"></script>
+</body>
+</html>
